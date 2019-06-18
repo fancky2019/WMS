@@ -26,3 +26,14 @@ D:\fancky\C#\2017Demo\winform\WMS\WMS.Common\obj\Debug\WMS.Common.csproj.CoreCom
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Common\obj\Debug\WMS.Common.csproj.CopyComplete
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Common\obj\Debug\WMS.Common.dll
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Common\obj\Debug\WMS.Common.pdb
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\WMS.Common.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\WMS.Common.pdb
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\AutoMapper.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\log4net.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\AutoMapper.xml
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Debug\log4net.xml
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Debug\WMS.Common.csprojAssemblyReference.cache
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Debug\WMS.Common.csproj.CoreCompileInputs.cache
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Debug\WMS.Common.csproj.CopyComplete
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Debug\WMS.Common.dll
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Debug\WMS.Common.pdb

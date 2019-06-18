@@ -11,6 +11,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMS.UserControls;
 
 namespace WMS
 {
@@ -50,12 +51,13 @@ namespace WMS
                         break;
                     }
                 }
-                var control = Activator.CreateInstance(type);
-                this.BeginInvoke((MethodInvoker)(() =>
-                   {
-                       AddXtrTabPages(e.Item.Caption, control);
 
-                   }));
+                var control = type != null ? Activator.CreateInstance(type) : new Developing();
+                this.BeginInvoke((MethodInvoker)(() =>
+                {
+                    AddXtrTabPages(e.Item.Caption, control);
+
+                }));
             });
             ssmAddItem.CloseWaitForm();
         }
