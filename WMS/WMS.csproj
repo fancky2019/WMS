@@ -92,6 +92,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Developing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Developing.Designer.cs">
+      <DependentUpon>Developing.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\EditUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,6 +180,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\Developing.resx">
+      <DependentUpon>Developing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\EditUserControl.resx">
       <DependentUpon>EditUserControl.cs</DependentUpon>
     </EmbeddedResource>
