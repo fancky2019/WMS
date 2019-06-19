@@ -65,7 +65,7 @@ namespace WMS
         private void AddXtrTabPages(string header, object obj)
         {
             Control control = obj as Control;
-            IEnumerable<XtraTabPage> res = this.xtraTabControl1.TabPages.Where(p => p.Text.Contains(header));
+            IEnumerable<XtraTabPage> res = this.xtraTabControl1.TabPages.Where(p => p.Text == header);
             if (res.Count() > 0)
             {
                 this.xtraTabControl1.SelectedTabPage = res.FirstOrDefault();
