@@ -47,6 +47,8 @@
             this.bbiDelete = new DevExpress.XtraBars.BarButtonItem();
             this.bbiUpdate = new DevExpress.XtraBars.BarButtonItem();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.pageNavigator = new WMS.UserControls.PageNavigator();
             this.gridProduct = new DevExpress.XtraGrid.GridControl();
             this.gridViewProduct = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -59,8 +61,6 @@
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.pageNavigator = new WMS.UserControls.PageNavigator();
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.teBarCode.Properties)).BeginInit();
@@ -69,9 +69,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridProduct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewProduct)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -90,81 +90,72 @@
             this.panelControl1.Controls.Add(this.barDockControlTop);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1085, 125);
+            this.panelControl1.Size = new System.Drawing.Size(814, 100);
             this.panelControl1.TabIndex = 5;
             // 
             // sbtAdd
             // 
             this.sbtAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtAdd.Location = new System.Drawing.Point(979, 89);
-            this.sbtAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.sbtAdd.Location = new System.Drawing.Point(734, 71);
             this.sbtAdd.Name = "sbtAdd";
-            this.sbtAdd.Size = new System.Drawing.Size(100, 29);
+            this.sbtAdd.Size = new System.Drawing.Size(75, 23);
             this.sbtAdd.TabIndex = 7;
             this.sbtAdd.Text = "新增";
             this.sbtAdd.Click += new System.EventHandler(this.sbtAdd_Click);
             // 
             // teBarCode
             // 
-            this.teBarCode.Location = new System.Drawing.Point(601, 40);
-            this.teBarCode.Margin = new System.Windows.Forms.Padding(4);
+            this.teBarCode.Location = new System.Drawing.Point(451, 32);
             this.teBarCode.Name = "teBarCode";
-            this.teBarCode.Size = new System.Drawing.Size(192, 24);
+            this.teBarCode.Size = new System.Drawing.Size(144, 20);
             this.teBarCode.TabIndex = 6;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(545, 44);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(4);
+            this.labelControl3.Location = new System.Drawing.Point(409, 35);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(45, 18);
+            this.labelControl3.Size = new System.Drawing.Size(36, 14);
             this.labelControl3.TabIndex = 5;
             this.labelControl3.Text = "条码：";
             // 
             // sbtnQuery
             // 
             this.sbtnQuery.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sbtnQuery.Location = new System.Drawing.Point(979, 39);
-            this.sbtnQuery.Margin = new System.Windows.Forms.Padding(4);
+            this.sbtnQuery.Location = new System.Drawing.Point(734, 31);
             this.sbtnQuery.Name = "sbtnQuery";
-            this.sbtnQuery.Size = new System.Drawing.Size(100, 29);
+            this.sbtnQuery.Size = new System.Drawing.Size(75, 23);
             this.sbtnQuery.TabIndex = 4;
             this.sbtnQuery.Text = "查询";
             this.sbtnQuery.Click += new System.EventHandler(this.sbtnQuery_Click);
             // 
             // teProductStyle
             // 
-            this.teProductStyle.Location = new System.Drawing.Point(345, 40);
-            this.teProductStyle.Margin = new System.Windows.Forms.Padding(4);
+            this.teProductStyle.Location = new System.Drawing.Point(259, 32);
             this.teProductStyle.Name = "teProductStyle";
-            this.teProductStyle.Size = new System.Drawing.Size(192, 24);
+            this.teProductStyle.Size = new System.Drawing.Size(144, 20);
             this.teProductStyle.TabIndex = 3;
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(289, 44);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.labelControl2.Location = new System.Drawing.Point(217, 35);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(45, 18);
+            this.labelControl2.Size = new System.Drawing.Size(36, 14);
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "型号：";
             // 
             // teProductName
             // 
-            this.teProductName.Location = new System.Drawing.Point(84, 40);
-            this.teProductName.Margin = new System.Windows.Forms.Padding(4);
+            this.teProductName.Location = new System.Drawing.Point(63, 32);
             this.teProductName.Name = "teProductName";
-            this.teProductName.Size = new System.Drawing.Size(197, 24);
+            this.teProductName.Size = new System.Drawing.Size(148, 20);
             this.teProductName.TabIndex = 1;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(40, 44);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.labelControl1.Location = new System.Drawing.Point(30, 35);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(45, 18);
+            this.labelControl1.Size = new System.Drawing.Size(36, 14);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "名称：";
             // 
@@ -174,8 +165,7 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(2, 2);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 121);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 96);
             // 
             // barManager1
             // 
@@ -196,26 +186,23 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(2, 2);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlTop.Size = new System.Drawing.Size(1081, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(810, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(2, 123);
+            this.barDockControlBottom.Location = new System.Drawing.Point(2, 98);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1081, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(810, 0);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1083, 2);
+            this.barDockControlRight.Location = new System.Drawing.Point(812, 2);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 121);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 96);
             // 
             // barButtonItem1
             // 
@@ -245,11 +232,28 @@
             this.panelControl2.Controls.Add(this.gridProduct);
             this.panelControl2.Controls.Add(this.pageNavigator);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl2.Location = new System.Drawing.Point(0, 125);
-            this.panelControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.panelControl2.Location = new System.Drawing.Point(0, 100);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(1085, 770);
+            this.panelControl2.Size = new System.Drawing.Size(814, 317);
             this.panelControl2.TabIndex = 6;
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.bbiUpdate),
+            new DevExpress.XtraBars.LinkPersistInfo(this.bbiDelete)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
+            // pageNavigator
+            // 
+            this.pageNavigator.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pageNavigator.Location = new System.Drawing.Point(2, 285);
+            this.pageNavigator.Name = "pageNavigator";
+            this.pageNavigator.Size = new System.Drawing.Size(810, 30);
+            this.pageNavigator.Skip = 0;
+            this.pageNavigator.TabIndex = 5;
+            this.pageNavigator.Total = 0;
             // 
             // gridProduct
             // 
@@ -267,16 +271,14 @@
             new DevExpress.XtraEditors.NavigatorCustomButton(-1, "dfdf"),
             new DevExpress.XtraEditors.NavigatorCustomButton(-1, "fdfd"),
             new DevExpress.XtraEditors.NavigatorCustomButton(-1, "fddf")});
-            this.gridProduct.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.gridProduct.EmbeddedNavigator.TextLocation = DevExpress.XtraEditors.NavigatorButtonsTextLocation.End;
             this.gridProduct.EmbeddedNavigator.TextStringFormat = "第 {0}页 ,共 {1}页";
             this.gridProduct.Location = new System.Drawing.Point(2, 2);
             this.gridProduct.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Office2003;
             this.gridProduct.MainView = this.gridViewProduct;
-            this.gridProduct.Margin = new System.Windows.Forms.Padding(4);
             this.gridProduct.Name = "gridProduct";
-            this.gridProduct.Size = new System.Drawing.Size(1081, 715);
-            this.gridProduct.TabIndex = 4;
+            this.gridProduct.Size = new System.Drawing.Size(810, 283);
+            this.gridProduct.TabIndex = 6;
             this.gridProduct.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewProduct});
             // 
@@ -293,15 +295,12 @@
             this.gridColumn5,
             this.gridColumn9,
             this.gridColumn10});
+            this.gridViewProduct.DetailHeight = 280;
             this.gridViewProduct.GridControl = this.gridProduct;
-            this.gridViewProduct.IndicatorWidth = 33;
+            this.gridViewProduct.IndicatorWidth = 25;
             this.gridViewProduct.Name = "gridViewProduct";
             this.gridViewProduct.OptionsMenu.EnableColumnMenu = false;
             this.gridViewProduct.OptionsView.ShowGroupPanel = false;
-            this.gridViewProduct.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridViewProduct_CustomDrawRowIndicator);
-            this.gridViewProduct.CustomDrawEmptyForeground += new DevExpress.XtraGrid.Views.Base.CustomDrawEventHandler(this.gridViewProduct_CustomDrawEmptyForeground);
-            this.gridViewProduct.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gridViewProduct_MouseDown);
-            this.gridViewProduct.MouseUp += new System.Windows.Forms.MouseEventHandler(this.gridViewProduct_MouseUp);
             // 
             // gridColumn7
             // 
@@ -310,7 +309,9 @@
             this.gridColumn7.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn7.Caption = "gridColumn7";
             this.gridColumn7.FieldName = "ID";
+            this.gridColumn7.MinWidth = 15;
             this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Width = 56;
             // 
             // gridColumn1
             // 
@@ -322,6 +323,7 @@
             this.gridColumn1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn1.Caption = "名称";
             this.gridColumn1.FieldName = "ProductName";
+            this.gridColumn1.MinWidth = 15;
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.OptionsColumn.AllowFocus = false;
@@ -330,7 +332,7 @@
             this.gridColumn1.OptionsFilter.AllowFilter = false;
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
-            this.gridColumn1.Width = 83;
+            this.gridColumn1.Width = 62;
             // 
             // gridColumn2
             // 
@@ -342,6 +344,7 @@
             this.gridColumn2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn2.Caption = "型号";
             this.gridColumn2.FieldName = "ProductStyle";
+            this.gridColumn2.MinWidth = 15;
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.OptionsColumn.AllowFocus = false;
@@ -350,7 +353,7 @@
             this.gridColumn2.OptionsFilter.AllowFilter = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
-            this.gridColumn2.Width = 83;
+            this.gridColumn2.Width = 62;
             // 
             // gridColumn3
             // 
@@ -362,6 +365,7 @@
             this.gridColumn3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn3.Caption = "条码";
             this.gridColumn3.FieldName = "Code";
+            this.gridColumn3.MinWidth = 15;
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.OptionsColumn.AllowFocus = false;
@@ -370,7 +374,7 @@
             this.gridColumn3.OptionsFilter.AllowFilter = false;
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
-            this.gridColumn3.Width = 83;
+            this.gridColumn3.Width = 62;
             // 
             // gridColumn4
             // 
@@ -382,6 +386,7 @@
             this.gridColumn4.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn4.Caption = "价格";
             this.gridColumn4.FieldName = "Price";
+            this.gridColumn4.MinWidth = 15;
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.OptionsColumn.AllowFocus = false;
@@ -390,7 +395,7 @@
             this.gridColumn4.OptionsFilter.AllowFilter = false;
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
-            this.gridColumn4.Width = 83;
+            this.gridColumn4.Width = 62;
             // 
             // gridColumn6
             // 
@@ -402,6 +407,7 @@
             this.gridColumn6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn6.Caption = "库存数量";
             this.gridColumn6.FieldName = "Count";
+            this.gridColumn6.MinWidth = 15;
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.OptionsColumn.AllowEdit = false;
             this.gridColumn6.OptionsColumn.AllowFocus = false;
@@ -410,7 +416,7 @@
             this.gridColumn6.OptionsFilter.AllowFilter = false;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 4;
-            this.gridColumn6.Width = 83;
+            this.gridColumn6.Width = 62;
             // 
             // gridColumn8
             // 
@@ -422,7 +428,8 @@
             this.gridColumn8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn8.Caption = "单位";
             this.gridColumn8.FieldName = "Unit";
-            this.gridColumn8.MaxWidth = 40;
+            this.gridColumn8.MaxWidth = 30;
+            this.gridColumn8.MinWidth = 15;
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.OptionsColumn.AllowEdit = false;
             this.gridColumn8.OptionsColumn.AllowFocus = false;
@@ -430,7 +437,7 @@
             this.gridColumn8.OptionsFilter.AllowFilter = false;
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 5;
-            this.gridColumn8.Width = 38;
+            this.gridColumn8.Width = 28;
             // 
             // gridColumn5
             // 
@@ -442,6 +449,7 @@
             this.gridColumn5.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn5.Caption = "库位";
             this.gridColumn5.FieldName = "StockName";
+            this.gridColumn5.MinWidth = 15;
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.OptionsColumn.AllowFocus = false;
@@ -450,7 +458,7 @@
             this.gridColumn5.OptionsFilter.AllowFilter = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 6;
-            this.gridColumn5.Width = 96;
+            this.gridColumn5.Width = 72;
             // 
             // gridColumn9
             // 
@@ -464,6 +472,7 @@
             this.gridColumn9.DisplayFormat.FormatString = "yyyy-MM-dd HH:mm:ss";
             this.gridColumn9.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.gridColumn9.FieldName = "CreateTime";
+            this.gridColumn9.MinWidth = 15;
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.OptionsColumn.AllowEdit = false;
             this.gridColumn9.OptionsColumn.AllowFocus = false;
@@ -471,7 +480,7 @@
             this.gridColumn9.OptionsFilter.AllowFilter = false;
             this.gridColumn9.Visible = true;
             this.gridColumn9.VisibleIndex = 7;
-            this.gridColumn9.Width = 130;
+            this.gridColumn9.Width = 97;
             // 
             // gridColumn10
             // 
@@ -485,6 +494,7 @@
             this.gridColumn10.DisplayFormat.FormatString = "yyyy-MM-dd HH:mm:ss";
             this.gridColumn10.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.gridColumn10.FieldName = "ModifyTime";
+            this.gridColumn10.MinWidth = 15;
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.OptionsColumn.AllowEdit = false;
             this.gridColumn10.OptionsColumn.AllowFocus = false;
@@ -493,37 +503,16 @@
             this.gridColumn10.OptionsFilter.AllowFilter = false;
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 8;
-            this.gridColumn10.Width = 130;
-            // 
-            // pageNavigator
-            // 
-            this.pageNavigator.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pageNavigator.Location = new System.Drawing.Point(2, 717);
-            this.pageNavigator.Margin = new System.Windows.Forms.Padding(5);
-            this.pageNavigator.Name = "pageNavigator";
-            this.pageNavigator.Size = new System.Drawing.Size(1081, 51);
-            this.pageNavigator.Skip = 0;
-            this.pageNavigator.TabIndex = 0;
-            this.pageNavigator.Total = 0;
-            this.pageNavigator.PageIndexChanged += new System.Action<int, int>(this.pageNavigator1_PageIndexChanged);
-            // 
-            // popupMenu1
-            // 
-            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.bbiUpdate),
-            new DevExpress.XtraBars.LinkPersistInfo(this.bbiDelete)});
-            this.popupMenu1.Manager = this.barManager1;
-            this.popupMenu1.Name = "popupMenu1";
+            this.gridColumn10.Width = 97;
             // 
             // ProductManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.panelControl1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductManager";
-            this.Size = new System.Drawing.Size(1085, 895);
+            this.Size = new System.Drawing.Size(814, 417);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -533,9 +522,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridProduct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewProduct)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -551,20 +540,7 @@
         private DevExpress.XtraEditors.TextEdit teProductName;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraGrid.GridControl gridProduct;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridViewProduct;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private PageNavigator pageNavigator;
         private DevExpress.XtraEditors.SimpleButton sbtAdd;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraBars.BarButtonItem bbiUpdate;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarManager barManager1;
@@ -574,5 +550,18 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem bbiDelete;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraGrid.GridControl gridProduct;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewProduct;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
+        private PageNavigator pageNavigator;
     }
 }

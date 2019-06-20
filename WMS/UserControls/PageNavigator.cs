@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
 namespace WMS.UserControls
 {
-    public partial class PageNavigator : UserControl
+    public partial class PageNavigator : XtraUserControl
     {
         private int _pageIndex = 1;
         private int _total;
