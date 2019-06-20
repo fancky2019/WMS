@@ -13,3 +13,9 @@ D:\fancky\C#\2017Demo\winform\WMS\WMS.Model\bin\Debug\WMS.Model.pdb
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Model\obj\Debug\WMS.Model.csproj.CoreCompileInputs.cache
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Model\obj\Debug\WMS.Model.dll
 D:\fancky\C#\2017Demo\winform\WMS\WMS.Model\obj\Debug\WMS.Model.pdb
+D:\fancky\C#\Git\WMS\WMS.Model\bin\Debug\WMS.Model.dll
+D:\fancky\C#\Git\WMS\WMS.Model\bin\Debug\WMS.Model.pdb
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Debug\WMS.Model.csprojAssemblyReference.cache
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Debug\WMS.Model.csproj.CoreCompileInputs.cache
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Debug\WMS.Model.dll
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Debug\WMS.Model.pdb
