@@ -1,0 +1,6 @@
+D:\fancky\C#\Git\WMS\WMS.Model\bin\Release\WMS.Model.dll
+D:\fancky\C#\Git\WMS\WMS.Model\bin\Release\WMS.Model.pdb
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Release\WMS.Model.csprojAssemblyReference.cache
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Release\WMS.Model.csproj.CoreCompileInputs.cache
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Release\WMS.Model.dll
+D:\fancky\C#\Git\WMS\WMS.Model\obj\Release\WMS.Model.pdb

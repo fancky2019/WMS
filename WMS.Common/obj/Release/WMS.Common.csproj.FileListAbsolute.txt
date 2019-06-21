@@ -1,0 +1,11 @@
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\WMS.Common.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\WMS.Common.pdb
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\AutoMapper.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\log4net.dll
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\AutoMapper.xml
+D:\fancky\C#\Git\WMS\WMS.Common\bin\Release\log4net.xml
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Release\WMS.Common.csprojAssemblyReference.cache
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Release\WMS.Common.csproj.CoreCompileInputs.cache
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Release\WMS.Common.csproj.CopyComplete
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Release\WMS.Common.dll
+D:\fancky\C#\Git\WMS\WMS.Common\obj\Release\WMS.Common.pdb
